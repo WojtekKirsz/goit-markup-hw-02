@@ -3,20 +3,75 @@ body {
     color: #212121;
 }
 
-h3 {
-    font-size: 18px;
-    line-height: 2;
+h1 {
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 6%;
 }
 
-p {
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 3%;
+}
+
+.portfolio {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 6%;
+}
+
+.index {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+}
+
+.images {
     font-size: 16px;
     line-height: 1.88;
+    color: #757575;
+    letter-spacing: 3%;
+}
+
+.lorem-wording {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: #757575;
+}
+
+.team-player {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 3%;
+}
+
+.team-role {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 3%;
     color: #757575;
 }
 
 .address {
     font-size: 14px;
+    font-style: normal;
     line-height: 1.71;
+    letter-spacing: 3%;
 }
 
 .blue-font {
@@ -25,18 +80,26 @@ p {
 
 .pages {
     font-size: 14px;
+    font-weight: 500;
     line-height: 1.17;
+    letter-spacing: 2%;
 }
 
 button {
+    font-family: 'Roboto', sans-serif;
     background: #f5f4fa;
     border: none;
     font-size: 16px;
-    line-height: 1.66;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 3%;
+    text-align: center;
+    cursor: pointer;
 }
 
 nav a {
     text-decoration: none;
+    color: #212121;
 }
 
 nav header {
@@ -62,5 +125,11 @@ a:hover {
 .logo {
     text-decoration: none;
     font-size: 26px;
+    font-weight: 700;
     line-height: 1.17;
+    letter-spacing: 3%;
+}
+
+a {
+    color: #212121;
 }
