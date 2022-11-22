@@ -3,7 +3,7 @@ body {
     color: #212121;
 }
 
-h1 {
+.big-title {
     text-transform: uppercase;
     font-family: 'Roboto';
     font-style: normal;
@@ -12,14 +12,8 @@ h1 {
     line-height: 60px;
     text-align: center;
     letter-spacing: 6%;
-}
-
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 3%;
+    background: #2f303a;
+    color: #ffffff;
 }
 
 .portfolio {
@@ -35,6 +29,22 @@ h2 {
     line-height: 16px;
     letter-spacing: 3%;
     text-transform: uppercase;
+}
+
+.main-business {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 3%;
+}
+
+.team-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 3%;
 }
 
 .images {
@@ -72,10 +82,23 @@ h2 {
     font-style: normal;
     line-height: 1.71;
     letter-spacing: 3%;
+    background: #2f303a;
+}
+
+.direct-address {
+    color: #ffffff;
 }
 
 .blue-font {
     color: #2196f3;
+}
+
+.white-font {
+    color: #ffffff;
+}
+
+.dark-grey {
+    color: #000000;
 }
 
 .pages {
@@ -122,12 +145,21 @@ a:hover {
     color: #757575;
 }
 
-.logo {
+.logo-header {
     text-decoration: none;
     font-size: 26px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 3%;
+}
+
+.logo-footer {
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    background: #2f303a;
 }
 
 a {
