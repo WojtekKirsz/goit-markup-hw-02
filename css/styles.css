@@ -16,7 +16,7 @@ body {
     color: #ffffff;
 }
 
-.portfolio {
+.portfolio-header {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
@@ -47,7 +47,7 @@ body {
     letter-spacing: 3%;
 }
 
-.images {
+.portfolio-title {
     font-size: 16px;
     line-height: 1.88;
     color: #757575;
@@ -101,7 +101,7 @@ body {
     color: #000000;
 }
 
-.pages {
+.sub-pages {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.17;
