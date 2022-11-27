@@ -3,7 +3,7 @@ body {
     color: var(--standard-black);
 }
 
-ul {
+.list {
     list-style: none;
 }
 
@@ -133,6 +133,7 @@ ul {
 .button-services {
     font-family: 'Roboto', sans-serif;
     color: var(--standard-black);
+    background: var(--background-button-color);
     border: none;
     font-size: 16px;
     font-weight: 500;
@@ -143,19 +144,15 @@ ul {
     text-decoration: none;
 }
 
-nav a:hover,
-nav a:focus {
+.display-links:hover,
+.display-links:focus {
     color: var(--standard-blue);
 }
 
-a:focus,
-a:hover {
-    color: var(--standard-blue);
-}
-
-nav button:hover,
-nav button:focus {
-    color: var(--standard-blue);
+.display-links-buttons:hover,
+.display-links-buttons:focus {
+    color: var(--standard-white);
+    background: var(--standard-blue);
 }
 
 .logo-header {
