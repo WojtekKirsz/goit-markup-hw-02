@@ -1,6 +1,16 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--standard-black);
+}
+
+:root {
+    --standard-blue: #2196f3;
+    --standard-white: #ffffff;
+    --standard-black: #212121;
+    --dark-grey: #000000;
+    --light-grey: #757575;
+    --background-button-color: #f5f4fa;
+    --background-black-color: #2f303a;
 }
 
 .big-title {
@@ -12,8 +22,8 @@ body {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 6%;
-    background: #2f303a;
-    color: #ffffff;
+    background: var(--background-black-color);
+    color: var(--standard-white);
 }
 
 .portfolio-header {
@@ -29,6 +39,13 @@ body {
     line-height: 1.14;
     letter-spacing: 3%;
     text-transform: uppercase;
+}
+
+.lorem-wording {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 3%;
+    color: var(--light-grey);
 }
 
 .main-business {
@@ -47,20 +64,6 @@ body {
     letter-spacing: 3%;
 }
 
-.portfolio-title {
-    font-size: 16px;
-    line-height: 1.88;
-    color: #757575;
-    letter-spacing: 3%;
-}
-
-.lorem-wording {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 3%;
-    color: #757575;
-}
-
 .team-player {
     font-weight: 500;
     font-size: 16px;
@@ -74,7 +77,14 @@ body {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 3%;
-    color: #757575;
+    color: var(--light-grey);
+}
+
+.portfolio-title {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--light-grey);
+    letter-spacing: 3%;
 }
 
 .address {
@@ -82,23 +92,23 @@ body {
     font-style: normal;
     line-height: 1.71;
     letter-spacing: 3%;
-    background: #2f303a;
+    background: var(--background-black-color);
 }
 
 .direct-address {
-    color: #ffffff;
+    color: var(--standard-white);
 }
 
 .blue-font {
-    color: #2196f3;
+    color: var(--standard-blue);
 }
 
 .white-font {
-    color: #ffffff;
+    color: var(--standard-white);
 }
 
 .dark-grey {
-    color: #000000;
+    color: var(--dark-grey);
 }
 
 .sub-pages {
@@ -110,7 +120,7 @@ body {
 
 button {
     font-family: 'Roboto', sans-serif;
-    background: #f5f4fa;
+    background: var(--background-button-color);
     border: none;
     font-size: 16px;
     font-weight: 500;
@@ -122,7 +132,7 @@ button {
 
 nav a {
     text-decoration: none;
-    color: #212121;
+    color: var(--standard-black);
 }
 
 nav header {
@@ -132,17 +142,17 @@ nav header {
 
 nav a:hover,
 nav a:focus {
-    color: #2196f3;
+    color: var(--standard-blue);
 }
 
 a:focus,
 a:hover {
-    color: #2196f3;
+    color: var(--standard-blue);
 }
 
 .contact {
     text-decoration: none;
-    color: #757575;
+    color: var(--light-grey);
 }
 
 .logo-header {
@@ -159,9 +169,5 @@ a:hover {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 3%;
-    background: #2f303a;
-}
-
-a {
-    color: #212121;
+    background: var(--background-black-color);
 }
