@@ -3,6 +3,10 @@ body {
     color: var(--standard-black);
 }
 
+ul {
+    list-style: none;
+}
+
 :root {
     --standard-blue: #2196f3;
     --standard-white: #ffffff;
@@ -13,6 +17,11 @@ body {
     --background-black-color: #2f303a;
 }
 
+.main-header {
+    background: var(--background-black-color);
+    text-align: center;
+}
+
 .big-title {
     text-transform: uppercase;
     font-family: 'Roboto';
@@ -20,9 +29,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 6%;
-    background: var(--background-black-color);
     color: var(--standard-white);
 }
 
@@ -87,18 +94,6 @@ body {
     letter-spacing: 3%;
 }
 
-.address {
-    font-size: 14px;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: 3%;
-    background: var(--background-black-color);
-}
-
-.direct-address {
-    color: var(--standard-white);
-}
-
 .blue-font {
     color: var(--standard-blue);
 }
@@ -118,9 +113,26 @@ body {
     letter-spacing: 2%;
 }
 
-button {
+.links-format {
+    text-decoration: none;
+    color: var(--standard-black);
+}
+
+.button-order {
     font-family: 'Roboto', sans-serif;
-    background: var(--background-button-color);
+    color: var(--standard-white);
+    background: var(--standard-blue);
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+    letter-spacing: 3%;
+    cursor: pointer;
+}
+
+.button-services {
+    font-family: 'Roboto', sans-serif;
+    color: var(--standard-black);
     border: none;
     font-size: 16px;
     font-weight: 500;
@@ -128,16 +140,7 @@ button {
     letter-spacing: 3%;
     text-align: center;
     cursor: pointer;
-}
-
-nav a {
     text-decoration: none;
-    color: var(--standard-black);
-}
-
-nav header {
-    font-size: 14px;
-    line-height: 1.17;
 }
 
 nav a:hover,
@@ -150,9 +153,9 @@ a:hover {
     color: var(--standard-blue);
 }
 
-.contact {
-    text-decoration: none;
-    color: var(--light-grey);
+nav button:hover,
+nav button:focus {
+    color: var(--standard-blue);
 }
 
 .logo-header {
@@ -163,11 +166,30 @@ a:hover {
     letter-spacing: 3%;
 }
 
+.footer-layout {
+    background: var(--background-black-color);
+}
+
 .logo-footer {
     text-decoration: none;
     font-size: 26px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 3%;
-    background: var(--background-black-color);
+}
+
+.address {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 3%;
+}
+
+.direct-address {
+    color: var(--standard-white);
+}
+
+.contact {
+    text-decoration: none;
+    color: var(--light-grey);
 }
